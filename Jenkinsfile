@@ -10,8 +10,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                // Print output of the compiled file
-                sh './PES1UG22CS317-1'
+                // Intentional error: misspelled executable name
+                sh './PES1UG22CS317-ONE'  
                 echo 'Test Stage Successful'
             }
         }
